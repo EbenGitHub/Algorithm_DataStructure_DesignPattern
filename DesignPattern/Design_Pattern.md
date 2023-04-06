@@ -119,6 +119,24 @@ class PizzaBuilder {
 
 > In this example, the Pizza class has a constructor that takes a size, crust, and toppings parameter. The PizzaBuilder class has methods to set the size, crust, and toppings of the pizza, and a build() method that returns a Pizza object with the specified options. This allows you to create Pizza objects with different options without having to create a separate constructor for each combination of options.
 
+###
+
+## Structural patterns
+
+Structural Design Patterns are concerned with the composition of classes and objects to form larger structures. These patterns focus on how objects are connected and how they work together to form larger structures.
+
+Structural patterns are used to solve problems related to object composition, such as creating complex objects by combining simpler objects, or providing a simplified interface to a complex system.
+
+Some examples of Structural Design Patterns include:
+
+- Adapter Pattern: This pattern allows objects with incompatible interfaces to work together by creating a wrapper object that translates one interface to another.
+
+- Decorator Pattern: This pattern allows you to add behavior to an object dynamically, without changing its interface.
+
+- Facade Pattern: This pattern provides a simplified interface to a complex system, hiding its complexity from clients.
+
+Each of these patterns provides a different way to structure the composition of objects in a manner suitable to the situation. By understanding the different structural patterns, developers can choose the appropriate pattern for their specific needs and improve the flexibility, extensibility, and maintainability of their software.
+
 ######
 
 1. **Adapter Pattern**:
@@ -236,6 +254,24 @@ facade.operation();
 ```
 
 > In this example, the SubsystemA and SubsystemB classes are the complex system, and the Facade class provides a simplified interface to the system. Clients can use the Facade class to perform operations on the system without needing to know the details of how the system works.
+
+###
+
+## Behavioral patterns
+
+Behavioral Design Patterns are concerned with the communication between objects, how objects collaborate and how they operate together to achieve a common goal. These patterns focus on the interaction between objects and the delegation of responsibilities among them.
+
+Behavioral patterns are used to solve problems related to communication between objects, such as managing complex interactions between objects, defining algorithms and encapsulating requests.
+
+Some examples of Behavioral Design Patterns include:
+
+- Observer Pattern: This pattern defines a one-to-many dependency between objects, so that when one object changes state, all its dependents are notified and updated automatically.
+
+- Strategy Pattern: This pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern allows you to change the algorithm used by an object at runtime.
+
+- Command Pattern: This pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations.
+
+Each of these patterns provides a different way to structure the communication and collaboration between objects in a manner suitable to the situation. By understanding the different behavioral patterns, developers can choose the appropriate pattern for their specific needs and improve the flexibility, extensibility, and maintainability of their software.
 
 ######
 
